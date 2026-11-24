@@ -136,8 +136,9 @@
   }
 /*TITULO PERSONAGEM*/
 #olivia .person_1::before {
-    content: "Up from \Athe bottom";
-    white-space: pre-line;
+  content: "Up from \Athe bottom";
+  white-space: pre-line;
+  display: block;
 }
 
 #olivia .phrase_person span:nth-child(1)::before {
