@@ -127,7 +127,7 @@
   }
 
 .posttext i{
-  border-bottom: 2px dashed var(--cor-rgba);
+  border-bottom: 2px dashed var(--cor-detalhe);
   color: #aaa;
   padding: 3px;
   }
@@ -160,6 +160,7 @@
 #ciborgue .about_person {
   --cor-grupo: #79A1F7;
   --cor-rgba: rgba(23, 38, 68, 0.9);
+  --cor-detalhe: rgba(121, 161, 247, 0.7);
 }
 
 #feiticeiro .about_person {
