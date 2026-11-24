@@ -77,7 +77,7 @@
 
 .phrase_person {
   display: block;
-  text-align: left;
+  tnaext-align: left;
   text-transform: lowercase;
   max-width: 350px;
   letter-spacing: 0.6px;
@@ -91,7 +91,7 @@
 }
 
 .phrase_person span {
-  background: linear-gradient(146deg, rgba(91, 36, 145,0.3) 0%, rgba(56,56,56,1) 100%);
+  background: linear-gradient(146deg, var(--cor-rgba) 0%, rgba(56,56,56,1) 100%);
   font-family: 'octobre';
   color: #fff;
   padding: 5px;
@@ -132,3 +132,65 @@
   color: #aaa;
   padding: 3px;
   }
+/*TITULO PERSONAGEM*/
+#olivia .person_1::before {
+    content: "Up from \Athe bottom";
+    white-space: pre-line;
+}
+#olivia .phrase_person {
+  content: I try escaping,\Abut there's \Anowhere to go
+  white-space: pre-line;
+}
+
+
+/*COR DA RAÇA*/
+
+#biotico .about_person {
+  --cor-grupo: #31633e;
+  --cor-rgba: rgba(1, 30, 9, 0.9);
+}
+
+#cacador .about_person {
+  --cor-grupo: #3EB595;
+  --cor-rgba: rgba(11, 48, 38, 0.9);
+}
+
+#ciborgue .about_person {
+  --cor-grupo: #79A1F7;
+  --cor-rgba: rgba(23, 38, 68, 0.9);
+}
+
+#feiticeiro .about_person {
+  --cor-grupo: #7e49b2;
+  --cor-rgba: rgba(47, 23, 70, 0.9);
+}
+
+#gorgona .about_person {
+  --cor-grupo: #ff8097;
+  --cor-rgba: rgba(97, 44, 53, 0.9);
+}
+
+#licantropo .about_person {
+  --cor-grupo: #ff8d00;
+  --cor-rgba: rgba(88, 49, 0, 0.9);
+}
+
+#metamorfo .about_person {
+  --cor-grupo: #C76969;
+  --cor-rgba: rgba(108, 55, 55, 0.9);
+}
+
+#sereiano .about_person {
+  --cor-grupo: #80D2F2;
+  --cor-rgba: rgba(37, 72, 86, 0.9);
+}
+
+#vampiro .about_person {
+  --cor-grupo: #c31f1f;
+  --cor-rgba: rgba(50, 1, 1, 0.9);
+}
+
+#parademonio .about_person {
+  --cor-grupo: #A3C0A2;
+  --cor-rgba: rgba(43, 70, 41, 0.9);
+}
