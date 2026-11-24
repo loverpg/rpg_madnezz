@@ -76,22 +76,23 @@
     }
 
 .phrase_person {
-  display: block;
-  tnaext-align: left;
-  text-transform: lowercase;
-  max-width: 350px;
-  letter-spacing: 0.6px;
-  word-spacing: 2px;
-  z-index: 2;
-  position: relative;
-  padding-right: 20px;
-  line-height: 150%;
-  flex: 1;
-  margin: 0;
+    display: block;
+    text-align: left;
+    text-transform: lowercase;
+    max-width: 350px;
+    letter-spacing: 0.6px;
+    word-spacing: 2px;
+    z-index: 2;
+    position: relative;
+    padding-right: 20px;
+    line-height: 150%;
+    flex: 1;
+    margin: 0;
 }
 
 .phrase_person span {
-    display: table;
+    display: block;
+    width: fit-content;
     background: linear-gradient(146deg, var(--cor-rgba) 0%, rgba(56,56,56,1) 100%);
     font-family: 'octobre';
     color: #fff;
@@ -101,8 +102,8 @@
     font-weight: normal;
     border-radius: 0 7px 7px 0;
     margin-bottom: 8px;
-    }
-   
+}
+
 .posttext{
   color: #eee;
   font-weight: normal;
