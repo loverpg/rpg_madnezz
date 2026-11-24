@@ -91,15 +91,16 @@
 }
 
 .phrase_person span {
-  background: linear-gradient(146deg, var(--cor-rgba) 0%, rgba(56,56,56,1) 100%);
-  font-family: 'octobre';
-  color: #fff;
-  padding: 5px;
-  font-size: 9px;
-  letter-spacing: 5px;
-  font-weight: normal;
-  padding-left: 20px;
-  border-radius: 0px 7px 7px 0px;
+    display: table;
+    background: linear-gradient(146deg, var(--cor-rgba) 0%, rgba(56,56,56,1) 100%);
+    font-family: 'octobre';
+    color: #fff;
+    padding: 5px 5px 5px 20px;
+    font-size: 9px;
+    letter-spacing: 5px;
+    font-weight: normal;
+    border-radius: 0 7px 7px 0;
+    margin-bottom: 8px;
     }
    
 .posttext{
