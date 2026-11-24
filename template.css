@@ -138,7 +138,7 @@
     white-space: pre-line;
 }
 #olivia .phrase_person::before {
-  content: "I try escaping,\Abut there's \Anowhere to go";
+  content: "teste frase";
   white-space: pre-line;
 }
 
