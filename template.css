@@ -137,10 +137,13 @@
     content: "Up from \Athe bottom";
     white-space: pre-line;
 }
-#olivia .phrase_person::before {
-  content: "I try escaping, but there's nowhere to go";
-  white-space: pre-line;
-}
+
+#olivia .phrase_person span:nth-child(1)::before {
+    content: "I try escaping,"; }
+#olivia .phrase_person span:nth-child(2)::before {
+    content: "but there's"; }
+#olivia .phrase_person span:nth-child(3)::before {
+    content: "nowhere to go";}
 
 
 /*COR DA RAÇA*/
