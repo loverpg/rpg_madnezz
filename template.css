@@ -39,7 +39,8 @@
   max-width: 320px;
   text-align: center;
   font-family: 'bigilla';
-  font-weight: 300;font-size: 40px;
+  font-weight: 300;
+  font-size: 40px;
   line-height: 100%;
   word-spacing: 10px;
   letter-spacing: 5px;
@@ -47,8 +48,7 @@
   text-transform: lowercase ;
   color: #fff;
   flex: 1;
-  white-space: nowrap;
-    }
+}
   
 .person_1 t{
   max-width: 350px;
