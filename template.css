@@ -121,13 +121,13 @@
   }
   
 .posttext b{
-  background: linear-gradient(360deg, rgba(91, 36, 145,0.5) 0%, rgba(56,56,56,0.6) 100%);
+  background: linear-gradient(360deg, var(--cor-rgba) 0%, rgba(56,56,56,0.6) 100%);
   color: #aaa;
   padding: 3px;
   }
 
 .posttext i{
-  border-bottom: 1px dashed rgba(91, 36, 145,0.5);
+  border-bottom: 1px dashed var(--cor-rgba);
   color: #aaa;
   padding: 3px;
   }
