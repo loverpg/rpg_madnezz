@@ -127,7 +127,7 @@
   }
 
 .posttext i{
-  border-bottom: 1px dashed var(--cor-rgba);
+  border-bottom: 2px dashed var(--cor-rgba);
   color: #aaa;
   padding: 3px;
   }
