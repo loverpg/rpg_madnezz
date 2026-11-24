@@ -1,0 +1,134 @@
+@font-face {
+  font-family: 'octobre';
+  src: url('https://files.jcink.net/uploads2/bringmetofife/Octobre_Light.otf');
+    }
+@font-face {
+  font-family: 'bigilla';
+  src: url(https://files.jcink.net/uploads2/bringmetofife/Bigilla.otf);
+    }
+@font-face {
+  font-family: 'eastwood';
+  src: url(https://files.jcink.net/uploads2/paintitblackstories/Eastwood.otf);
+    }
+@font-face {
+  font-family: 'blackgold';
+  src: url(https://files.jcink.net/uploads2/zenosyne/Blackgold_qGAl.otf);
+    }
+@font-face {
+  font-family: 'branch';
+  src: url(https://files.jcink.net/uploads2/paintitblackstories/Branch.otf);
+    }
+
+.about_person{
+  max-width: 600px;
+  overflow: hidden;
+  background: linear-gradient(156deg, rgba(37,37,37,1) 0%, rgba(15,15,15,1) 100%);
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    }
+
+.title_person{
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 250px;
+    }
+
+.person_1 {
+  max-width: 320px;
+  text-align: center;
+  font-family: 'bigilla';
+  font-weight: 300;font-size: 40px;
+  line-height: 100%;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  font-weight: 300;
+  text-transform: lowercase ;
+  color: #fff;
+  flex: 1;
+  white-space: nowrap;
+    }
+  
+.person_1 t{
+  max-width: 350px;
+  text-align: center;
+  font-family: 'octobre';
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 100%;
+  word-spacing: 10px;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: #fff;
+  display: block;    
+    }
+    
+.perback {
+  max-width: 600px;
+  min-height: 280px;
+  border-radius: 0px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+    }
+
+.phrase_person {
+  display: block;
+  text-align: left;
+  text-transform: lowercase;
+  max-width: 350px;
+  letter-spacing: 0.6px;
+  word-spacing: 2px;
+  z-index: 2;
+  position: relative;
+  padding-right: 20px;
+  line-height: 150%;
+  flex: 1;
+  margin: 0;
+}
+
+.phrase_person span {
+  background: linear-gradient(146deg, rgba(91, 36, 145,0.3) 0%, rgba(56,56,56,1) 100%);
+  font-family: 'octobre';
+  color: #fff;
+  padding: 5px;
+  font-size: 9px;
+  letter-spacing: 5px;
+  font-weight: normal;
+  padding-left: 20px;
+  border-radius: 0px 7px 7px 0px;
+    }
+   
+.posttext{
+  color: #eee;
+  font-weight: normal;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12.3px;
+  line-height: 220%;
+  max-width: 400px;
+  padding: 50px;
+  border-radius: 10px;
+  letter-spacing: 1.2px;
+  word-spacing: 0.6px;
+  text-align: justify;
+  margin-left: 2px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background: #2a2a2a;
+  white-space: pre-line;
+  }
+  
+.posttext b{
+  background: linear-gradient(360deg, rgba(91, 36, 145,0.5) 0%, rgba(56,56,56,0.6) 100%);
+  color: #aaa;
+  padding: 3px;
+  }
+
+.posttext i{
+  border-bottom: 1px dashed rgba(91, 36, 145,0.5);
+  color: #aaa;
+  padding: 3px;
+  }
